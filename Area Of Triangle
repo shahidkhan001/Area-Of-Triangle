@@ -1,0 +1,14 @@
+public class Triangle
+ {
+ 	int base;
+ 	int height;
+ 	Triangle(int bas,int heig)
+ 	{
+ 		base =bas;
+ 		height=heig;
+ 	}
+ 	int Area()
+ 	{
+ 		return(base*height)/2;
+ 	}
+ }
